@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!--string for preference screen-->
+    <integer name="defaultPort">5015</integer>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:paddingBottom="10dp"
+    android:paddingRight="10dp"
+    tools:context="com.example.android.pointpossample.MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:text="@string/MainActivity_description" />
+
+    <TextView
+        android:textSize="22sp"
+        android:text="@string/request"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/xml_request"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/request"
+                android:textSize="18sp" />
+        </ScrollView>
+
+        <TextView
+            android:textSize="22sp"
+            android:layout_marginTop="10dp"
+            android:text="@string/response"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp">
+                <TextView
+                android:id="@+id/xml_response"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/response"
+                android:textSize="18sp" />
+        </ScrollView>
+</LinearLayout>
+</ScrollView>
+

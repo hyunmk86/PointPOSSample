@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/setting"
+        android:title="@string/Setting"
+        android:orderInCategory="2"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/send"
+        android:title="@string/Send"
+        android:orderInCategory="1"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/register"
+        android:title="@string/Register"
+        android:orderInCategory="3"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/Start"
+        android:title="@string/Start"
+        android:orderInCategory="5"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/Test_Mac"
+        android:title="@string/Test_Mac"
+        android:orderInCategory="4"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/Capture"
+        android:title="@string/Capture"
+        android:orderInCategory="6"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/Finish"
+        android:title="@string/Finish"
+        android:orderInCategory="7"
+        app:showAsAction="never"/>
+
+</menu>
